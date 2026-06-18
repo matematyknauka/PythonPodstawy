@@ -1,7 +1,7 @@
 import cv2
 
 from algorytm import zakres_min, zakres_max, wytnij_tlo
-k = 20 #k można modyfikować.
+k = 2 #k można modyfikować.
 tlo_bgr = cv2.imread("tlo.jpg")
 tlo_wiersze, tlo_kolumny, _ = tlo_bgr.shape
 tlo_hsv = cv2.cvtColor(tlo_bgr, cv2.COLOR_BGR2HSV)
