@@ -62,6 +62,8 @@ def wytnij_tlo(macierz_zdjecia_bgr, macierz_zdjecia_hsv, wiersze_zdjecia, kolumn
             
 # Uruchomienie algorytmu
 
+"""
+
 k =  7
 
 obraz_bgr = cv2.imread("portret.jpg")
@@ -80,6 +82,7 @@ v_max = zakres_max(tlo_hsv, tlo_wiersze, tlo_kolumny, 2, k)
 
 cv2.imwrite("nowe.jpg", wytnij_tlo(obraz_bgr, obraz_hsv, wiersze_obrazu, kolumny_obrazu, h_min, h_max, s_min, s_max, v_min, v_max))
 # Ostatni argument można modyfikować dla konkretnego zdjęcia. U mnie to 8.
+"""
 
             
             
